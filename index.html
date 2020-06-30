@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attrappe les oeufs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  
+  <div id="container">
+    <div id="score_help" class="text-center bg-success text-white"> Score:
+      <span id="score">0</span> | Life:
+      <span id="life"></span> | Utiliser la sourie pour attraper les oeufs
+    </div>
+  
+    <div id="branch"></div>
+  
+    <div id="hen1" class="hen"></div>
+    <div id="hen2" class="hen"></div>
+    <div id="hen3" class="hen"></div>
+  
+    <div id="egg1" class="egg" data-bullseye='1'>
+    </div>
+    <div id="egg2" class="egg" data-bullseye='2'></div>
+    <div id="egg3" class="egg" data-bullseye='3'></div>
+  
+    <div id="bullseye1" class="bullseye"></div>
+    <div id="bullseye2" class="bullseye"></div>
+    <div id="bullseye3" class="bullseye"></div>
+  
+    <div id="basket">
+      <span id="score_1"></span>
+    </div>
+  
+    <div id="floor"></div>
+  
+    <button id="restart" class="bg-primary">Reprendre</button>
+  
+  </div>
+
+  <script src="jquery.min.js"></script>
+  <script src="app.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
